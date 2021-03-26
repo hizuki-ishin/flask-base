@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>flask sample</title>
+</head>
+<body>
+    <title>Hello from Flask</title>
+    {% if name %}
+      <h1>{{ name }}引数あり、テンプレートからのHello World</h1>
+    {% else %}
+      <h1>Hello World</h1>
+    {% endif %}
+</body>
+</html>
